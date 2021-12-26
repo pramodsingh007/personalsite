@@ -41,20 +41,20 @@ header{
 
 @keyframes movingcloud {
     from{
-        left:-50vh;
+        left:-1vh;
     }
     to{
-        left: 85vh;
+        left: -9vh;
         
     }
     
 }
 @keyframes movingcloudsecond {
     from{
-        right: 111vh;
+        right: 69vh;
     }
     to{
-        right: 0vh;
+        right: 24vh;
     }
     
 }
