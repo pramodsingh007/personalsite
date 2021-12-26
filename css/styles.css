@@ -1,0 +1,267 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: rgba(77, 198, 214, 0.753);
+
+}
+
+li{
+    display: inline;
+    border: solid white 3px;
+    color: white;
+}
+
+ul{
+    display: flex;
+    justify-content:space-around;
+}
+
+header{
+    border: solid white 3px;
+    background-color: black;
+}
+ 
+.container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center; 
+    height: 30vh;
+} 
+
+.intro{
+
+    text-align: center;
+    font-family:'Merriweather', serif;
+}
+
+@keyframes movingcloud {
+    from{
+        left:-50vh;
+    }
+    to{
+        left: 200vh;
+        
+    }
+    
+}
+@keyframes movingcloudsecond {
+    from{
+        right: 200vh;
+    }
+    to{
+        right: -51vh;
+    }
+    
+}
+
+.firstcloud{
+    position: relative;
+    /* top: -8vh; */
+    animation: movingcloud 15s infinite ease-in-out;
+
+}
+.bottomcloud{
+    
+    position: relative;
+    /* left: 50vh; */
+    animation: movingcloudsecond 18s infinite ease-in-out;
+       
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#pic{
+    width: 200px;
+    height:200px;
+}
+
+.profilepic{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top: 10vh;
+}
+#t{
+    font-family:'Merriweather', serif ;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top:9vh;
+    
+}
+h3{
+    font-family:'Merriweather', serif ;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+hr{
+    color:white;
+    height: 3px;
+}
+
+#skills{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+#computer{
+    
+    width: 200px;
+    height: 200px;
+    
+}
+.com{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#projects{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+#geeta{
+    width: 150px;
+    height: 200px;
+
+}
+.geeta{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#qoutes{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+#getintouch{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#letstalk{
+    font-family:'Merriweather', serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#contactme{
+    font-family:'Merriweather', serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#reachus{
+    font-family:'Merriweather', serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-content:center;
+
+}
+a{
+    margin:0px 5px 0px 5px;
+}
+
+/* ************************************************************* */
+#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pong{
+    width: 10em;
+    height: 10em;
+}
+#km{
+    width:10em;
+    height:10em;
+}
+#usa{
+    width:10em;
+    height:10em;
+}
+
+#turtle{
+    width:10em;
+    height: 10em;
+}
+.projectscontainer{
+    position: relative;
+    top: 15vh;
+    display: flex;
+    justify-content: space-around;
+}
+#hi{
+    display:flex;
+    justify-content:center;
+    
+}
+#abouttext{
+    margin: 10px 100px 0px 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    
+    width: 500px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+}
+.centered{
+    position: relative;
+    top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#facebook{
+    width: 35px;
+    height: 35px;
+}
+#instagram{
+    width: 35px;
+    height:35px;
+}
+#github{
+    width: 35px;
+    height: 35px;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+}
+.socialmedia{
+    display: flex;
+    justify-content: center;
+}
+.contactbox{
+    position: relative;
+    top: 20vh;
+}
+
+.contactmessage{
+    width: 600px;
+}
+#box4{
+    display: flex;
+    justify-content: center;
+}
