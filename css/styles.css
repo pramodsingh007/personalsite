@@ -71,6 +71,10 @@ header{
     animation: movingcloudsecond 18s infinite ease-in-out;
        
 }
+#moun{
+    width:60%;
+    height:60%;
+}
 
 .box1{
     display: flex;
@@ -81,8 +85,8 @@ header{
 
 
 #pic{
-    width: 15em;
-    height:15em;
+    width: 20%;
+    height: 20%;
 }
 
 .profilepic{
@@ -90,7 +94,7 @@ header{
     justify-content: center;
     align-content: center;
     position: relative;
-    top: 10vh;
+    top: 10px;
 }
 #t{
     font-family:'Merriweather', serif ;
