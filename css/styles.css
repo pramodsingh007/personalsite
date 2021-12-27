@@ -194,21 +194,21 @@ a{
     align-items: center;
 }
 #pong{
-    width: 10em;
-    height: 10em;
+    width: 30%;
+    height: 50%;
 }
 #km{
-    width:10em;
-    height:10em;
+    width:30%;
+    height:50%;
 }
 #usa{
-    width:10em;
-    height:10em;
+    width:30%;
+    height:50%;
 }
 
 #turtle{
-    width:10em;
-    height: 10em;
+    width:30%;
+    height: 50%;
 }
 .projectscontainer{
     position: relative;
